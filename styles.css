@@ -1,0 +1,73 @@
+/* Estilo básico e resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0; /* Cinza Claro */
+    color: #333333; /* Cinza Escuro para o texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px; /* Espaço para o cabeçalho fixo */
+}
+
+header {
+    background: #FFC0CB; /* Rosa Claro */
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.slide {
+    display: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slide.active {
+    display: block;
+}
+
+pre {
+    text-align: left;
+    background: #F8F8F8;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+}
+
+button {
+    background: #FFC0CB;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #FFB6C1;
+}
