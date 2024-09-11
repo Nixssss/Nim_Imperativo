@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação: Linguagem Nim e Paradigma Imperativo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Apresentação: Linguagem Nim e Paradigma Imperativo</h1>
+    </header>
+
+    <main class="container">
+        <section id="slide-1" class="slide active">
+            <h2>Introdução à Linguagem Nim</h2>
+            <p>Nim é uma linguagem de programação geral que pode ser utilizada para uma ampla gama de aplicações, incluindo:</p>
+            <ul>
+                <li>Aplicações de Console: Ferramentas de linha de comando, scripts e utilitários.</li>
+                <li>Aplicações Web: Servidores web, APIs e aplicações web dinâmicas.</li>
+                <li>Aplicações Gráficas: Interfaces gráficas com diversas bibliotecas GUI disponíveis</li>
+                <li>Jogos: Desenvolvimento de jogos 2D e 3D.</li>
+                <li>Bibliotecas e Ferramentas: Criação de bibliotecas e ferramentas para uso em outros
+                    projetos.</li>
+                <li>Compiladores e Interpretadores: Desenvolvimento de compiladores e interpretadores
+                    de linguagem.</li>
+            </ul>
+            <button class="next-btn" onclick="nextSlide()">Próximo</button>
+        </section>
+
+        <section id="slide-2" class="slide">
+            <h2>Vantagens e Desvantagens de Usar Nim</h2>
+            <article>
+                <h3>Vantagens</h3>
+                <ul>
+                    <li>Eficiência: Código rápido e compacto, semelhante a C/C++.</li>
+                    <li> Expressividade: Sintaxe curta e fácil de aprender, semelhante ao Python.</li>
+                    <li>Segurança: Tipagem estática do tipo segurança do código.</li>
+                    <li>Produtividade: Gerenciamento automático de memória e uma grande biblioteca padrão melhoram a produtividade.</li>
+                    <li>Versatilidade: Vários paradigmas são suportados e várias aplicações</li>
+                    <li>  Comunidade: Comunidade ativa e crescente.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Desvantagens</h3>
+                <ul>
+                    <li>Base de Usuários Menor: Menor em comparação a linguagens mais populares.</li>
+                    <li>Menos Bibliotecas: A quantidade de bibliotecas de Nim é ainda menor do que para as linguagens de programação mais estabelecidas.</li>
+                    <li>Curva de Aprendizado: Tipagem estática e paradigmas podem ser difíceis para iniciantes. </li>
+                </ul>
+            </article>
+            <button class="prev-btn" onclick="prevSlide()">Voltar</button>
+            <button class="next-btn" onclick="nextSlide()">Próximo</button>
+        </section>
+
+        <section id="slide-3" class="slide">
+            <h2>Paradigma Imperativo</h2>
+            <p>O Paradigma Imperativo é baseado na arquitetura de Von Neumann. É o primeiro paradigma a existir e até hoje é o dominante. Esse paradigma segue o conceito de um estado e de ações que manipulam esse estado, nele encontramos procedimentos que servem de mecanismos de estruturação. Podemos denominá- lo de procedural por incluir sub-rotinas ou procedimentos para estruturação.</p>
+            <h3>Aplicações Práticas</h3>
+            <ul>
+                <li>Sistemas Operacionais: A maior parte dos sistemas operacionais é escrita em linguagens imperativas, como C ou C++, devido à necessidade de baixo nível de controle sobre o hardware.</li>
+                <li>Jogos: Linguagens como C++ são amplamente utilizadas em desenvolvimento de jogos, pois oferecem alto desempenho e flexibilidade para criar gráficos e animações complexas.</li>
+                <li>Aplicações Científicas: Linguagens como Fortran e C são utilizadas em simulações numéricas, análise de dados e outras aplicações científicas que exigem alto desempenho computacional.</li>
+                <li>Desenvolvimento Web: Embora linguagens como PHP e Python sejam interpretadas, elas seguem os princípios da programação imperativa e são amplamente utilizadas no desenvolvimento de aplicações web.</li>
+                <li>Inteligência Artificial: Linguagens como C++ e Python são utilizadas em algoritmos de aprendizado de máquina e processamento de linguagem natural.</li>
+            </ul>
+            <button class="prev-btn" onclick="prevSlide()">Voltar</button>
+            <button class="next-btn" onclick="nextSlide()">Próximo</button>
+        </section>
+
+        <section id="slide-4" class="slide">
+            <h2>Nim e o Paradigma Imperativo</h2>
+            <p>Nim adota o paradigma imperativo, proporcionando controle preciso sobre o fluxo de execução e o estado do programa. Utilizando sintaxe concisa, Nim permite a escrita de código altamente expressivo e eficiente, semelhante ao C, mas com modernidades como gerenciamento opcional de memória.</p>
+            <p>Com o suporte a blocos de código reutilizáveis (procedimentos e funções), controle detalhado sobre o fluxo com condicionais e loops, Nim se destaca em aplicações que necessitam de desempenho e controle, como sistemas embarcados, jogos e ferramentas de linha de comando.</p>
+            <p>Exemplo de código imperativo em Nim:</p>
+            <pre>
+for i in 1..10:
+    if i mod 2 == 0:
+        echo i, " é par"
+    else:
+        echo i, " é ímpar"
+            </pre>
+            <button class="prev-btn" onclick="prevSlide()">Voltar</button>
+            <button class="next-btn" onclick="nextSlide()">Próximo</button>
+        </section>
+
+        <section id="slide-5" class="slide">
+            <h2>Aplicações Práticas do Paradigma Imperativo</h2>
+            <ul>
+                <li>Sistemas Operacionais: A maior parte dos sistemas operacionais é escrita em linguagens imperativas, como C ou C++, devido à necessidade de baixo nível de controle sobre o hardware.</li>
+                <li>Jogos: Linguagens como C++ são amplamente utilizadas em desenvolvimento de jogos, pois oferecem alto desempenho e flexibilidade para criar gráficos e animações complexas.</li>
+                <li>Aplicações Científicas: Linguagens como Fortran e C são utilizadas em simulações numéricas, análise de dados e outras aplicações científicas que exigem alto desempenho computacional.</li>
+                <li>Desenvolvimento Web: Embora linguagens como PHP e Python sejam interpretadas, elas seguem os princípios da programação imperativa e são amplamente utilizadas no desenvolvimento de aplicações web.</li>
+                <li>Inteligência Artificial: Linguagens como C++ e Python são utilizadas em algoritmos de aprendizado de máquina e processamento de linguagem natural.</li>
+            <button class="prev-btn" onclick="prevSlide()">Voltar</button>
+            <button class="next-btn" onclick="nextSlide()">Próximo</button>
+        </section>
+
+        <section id="slide-6" class="slide">
+            <h2>Conclusão</h2>
+            <p>Nim oferece uma abordagem moderna e eficaz ao paradigma imperativo, equilibrando a eficiência e a performance de linguagens como C com a expressividade e simplicidade de Python. Essa combinação não só maximiza o desempenho, mas também facilita um desenvolvimento mais fluido e intuitivo, integrando o melhor dos dois mundos para atender às demandas contemporâneas da programação.</p>
+            <button class="prev-btn" onclick="prevSlide()">Voltar</button>
+            <button class="next-btn" onclick="nextSlide()">Próximo</button>
+        </section>
+
+        <section id="slide-7" class="slide">
+            <h2>Referências e Autoria</h2>
+            <p>&copy; 2024 Apresentação sobre Nim e Paradigma Imperativo - Feito por</p>
+            <ul>
+                <li>André Santos Pereira - 30333165</li>
+                <li>Guilherme Vieira - 31081959</li>
+                <li>Italo Kevyn Oliveira Bezerra 31547834.</li>
+                <li>Kallipio dos Santos Oliveira - 316457</li>
+                <li>Murilo da Silva Ferreira - 31454631</li>
+                <li>Yan Santos Silva - 31086748</li>
+            </ul>
+            <p> <h3>Referências: </h3>
+                <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_imperativa">Wikipedia</a></li>
+                    <li> <a href="https://nim-lang.org/documentation.html">Documentação Nim</a></li>
+                    <li> <a href="https://dev.to/dnovais/o-que-significa-ser-multi-paradigma-8ad">O que significa ser multi-paradigma?</a></li>
+                    <li><a href="https://skillstecnologicas.com/linguagem-de-programacao-nim/">Linguagem de Programação Nim: Um Mergulho Detalhado</a></li>
+                    <li><a href="https://pt.quora.com/O-que-é-a-linguagem-de-programação-Nim">O que é a linguagem de programação Nim?</a></li>
+                    <li><a href="https://www.cin.ufpe.br/~in1007/transparencias/jai/Jai2008Augusto.pdf">Conceitos e Paradigmas de Programação via
+                        Projeto de Interpretadores. </a></li>
+                </ul></p>
+            <button class="prev-btn" onclick="prevSlide()">Voltar</button>
+            <button class="show-all-btn" onclick="toggleShowAll()">Mostrar Tudo</button>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
